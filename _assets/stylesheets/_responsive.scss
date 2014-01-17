@@ -1,0 +1,178 @@
+@media (max-width: 1000px) {
+
+  .tagline span {
+    display:none;
+  }
+
+  .container > header, .container > section, .container > footer {
+    padding:0;
+    margin:1.5em 10%;
+  }
+
+  .container > section {
+    padding-bottom:1.5em;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  article {
+    padding-top:30px;
+
+    .container > header, .container > section, .container > footer {
+      padding:0;
+      margin:1.5em 10%;
+    }
+
+
+    .container > footer {
+      padding:2em 0;
+    }
+
+    .full, pre {
+      margin:1em 0;
+    }
+
+    pre {
+      padding:1em;
+    }
+
+    blockquote {
+      margin:1em 0;
+
+      p {
+        font-size:1em;
+      }
+    }
+
+    h1 {
+      font-size:1.8em;
+    }
+
+    h2 {
+      font-size:1.4em;
+    }
+
+    p {
+      font-size:0.9em;
+    }
+  }
+
+  .blog-cover {
+    height:200px;
+
+    img {
+      height:200px;
+      width:auto;
+    }
+
+    section {
+      padding:60px 0 0;
+      text-align:center;
+
+      a {
+        margin:0.5em;
+      }
+    }
+    h1 {
+      font-size:1.5em;
+    }
+
+    h3 {
+      font-size:1em;
+    }
+  }
+
+  .site-nav .tagline span {
+    display:none;
+  }
+
+  .site-nav {
+    #navigation {
+      a {
+        display:none;
+      }
+
+      .brand {
+        display:inline-block;
+      } 
+    }
+  }
+
+  .site-footer {
+    margin-top:0;
+    padding:2em 10%;
+    text-align:center;
+
+    nav {
+      display:block;
+      float:none !important;
+      padding:1em;
+    }
+  }
+
+  .index {
+    padding:0;
+    margin:0 10%;
+
+    > div {
+      margin:0;
+    }
+
+    img {
+      display:none;
+    }
+  }
+  .pdf {
+    margin: 0;
+    width: 100% !important;
+  }
+  .convert .ck_horizontal_subscription_form  {
+    padding: 10px !important;
+    margin: 0 ;
+  }
+  .idea {
+      .column {
+        width: 100% !important;
+        float: none !important;
+      }
+  }
+  .testimonials .item {
+    margin-bottom: 3em;
+    width: 100%%;
+    float: none;
+    margin: 1em;
+  }
+  .content.pdf {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .blog-cover {
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+    h3 {
+      font-size: 1em;
+    }
+  }
+
+  .convert .container>section {
+    margin: 0;
+  }
+  .pricing-model {
+    h3 {
+      font-size: 1em;
+      margin: 1em 0;
+      .btn {
+        margin: 1em;
+        text-overflow: hidden;
+      }
+    }
+  }
+
+}

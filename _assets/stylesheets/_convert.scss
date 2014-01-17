@@ -1,0 +1,199 @@
+.convert {
+
+  .title h3, .title p{
+    text-align: center;
+  }
+  background: #f5f5f5;
+
+  .ck_horizontal_subscription_form {
+    padding: 50px;
+    margin: 20px auto 40px;
+  }
+
+  .ck_subscription_form {
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+  }
+
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+
+   p {
+     line-height: 1.5em;
+   }
+
+   .ck_subscription_form .ck_subscribe_button {
+     width: 100%;
+     margin: 0px 0px 0px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     font-size: 18px;
+   }
+   .button.color6 {
+     color: #FFF;
+     background: #2f3639;
+   }
+   .button {
+     display: inline-block;
+     padding: 14px 22px 13px 22px;
+     text-decoration: none;
+     font-size: 1.1em;
+     font-weight: bold;
+     text-transform: uppercase;
+     border-radius: 7px;
+   }
+}
+.ck_subscription_form {
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  overflow: hidden;
+} 
+
+.ck_vertical_subscription_form {
+  width: 320px;
+  padding: 30px 40px 40px;
+} 
+
+.ck_horizontal_subscription_form .ck_subscription_form_content {
+  margin-right: 10px;
+}
+  
+.ck_horizontal_subscription_form .ck_subscribeForm {
+}
+
+.ck_subscription_form .ck_subscription_form_title {
+    color: #222;
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+.ck_subscription_form .ck_image {
+    width: 150px;
+    padding: 30px 20px 20px 0;
+  }
+  
+.ck_subscription_form .ck_subscription_description {
+    float: left;
+    margin-left: 10px;
+    width: 150px;
+  }
+  
+.ck_subscription_form input[type="text"], .ck_subscription_form input[type="text"] {
+  font-size: 14px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding:  5px;
+  width: 240px;
+} 
+
+.ck_subscription_form input[type="text"]:focus, .ck_subscription_form input[type="text"]:focus {
+  outline: none;
+  border-color: #aaa;
+} 
+
+/* Horizontal Styles */ 
+.ck_horizontal_subscription_form .ck_label {
+    font-weight: bold;
+    display: block;
+    }
+    
+.ck_subscription_form .ck_form-horizontal.ck_controls {
+      margin-left: 110px;
+    }
+    
+/* Vertical Styles */
+
+.ck_vertical_subscription_form #ck_subscribe_form {
+  clear: both;
+  padding-top: 20px;
+  } 
+        
+.ck_vertical_subscription_form .ck_label {
+  font-weight: bold;
+  display: block;
+  width:  100px;
+  float: left;
+  text-align: right;
+  height: 32px;
+  line-height: 32px;
+  }
+        
+.ck_vertical_subscription_form input[type="text"], .ck_vertical_subscription_form input[type="text"] {
+  width: 200px;
+  float: right;
+  } 
+
+.ck_checkbox {
+  padding: 10px 0px 10px 20px;
+  display: block;
+  clear: both;
+}
+
+.ck_checkbox input.optIn {
+  margin-left:  -20px;
+}
+  
+.ck_subscription_form .ck_subscribe_button {
+    width: 100%;
+    margin: 0px 0px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+  }
+  
+.ck_subscription_form .ck_guarantee {
+    color: #777;
+    font-size: 13px;
+    clear: left;
+    display: block;
+  }
+  
+.ck_horizontal_subscription_form {
+padding: 50px;
+margin: 20px auto 40px;
+}
+
+.two-column .sidebar .upcoming-seminars .calendar-entry {
+float: left;
+width: 70px;
+padding: 8px 0 4px;
+background-color: #ffffaa;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffaa), color-stop(100%, #ffffdd));
+background-image: -webkit-linear-gradient(top, #ffffaa, #ffffdd);
+background-image: -moz-linear-gradient(top, #ffffaa, #ffffdd);
+background-image: -ms-linear-gradient(top, #ffffaa, #ffffdd);
+background-image: -o-linear-gradient(top, #ffffaa, #ffffdd);
+background-image: linear-gradient(top, #ffffaa, #ffffdd);
+box-shadow: 1px 1px 2px #76572c;
+text-align: center;
+font-size: 18px;
+margin-right: 10px;
+}
+.two-column .sidebar .upcoming-seminars .calendar-entry strong {
+display: block;
+font-size: 35px;
+margin-top: 4px;
+}
+.two-column .sidebar .upcoming-seminars strong {
+display: block;
+font-size: 18px;
+margin-bottom: 6px;
+}
