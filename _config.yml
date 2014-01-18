@@ -7,7 +7,7 @@ inc:
   
   # Company information
   company:      Comal Productions Inc.
-  url:          http://comalproductions.com
+  url:          http://comal.io
   twitter:      '@jwo'
   gplus:        '116897169659742961608'
   
@@ -41,7 +41,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://comalproductions.com
+url:         http://comal.io
 source:      .
 destination: ./_site
 plugins:     ./_plugins
