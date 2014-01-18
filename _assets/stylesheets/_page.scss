@@ -243,7 +243,7 @@ h4 {
 .box.idea{
   h3 {
     text-align: center;
-    margin: 2em 0 0 3%;
+    margin-top: 2em;
   }
 }
 
@@ -259,10 +259,11 @@ h4 {
   }
         
     .column {
-      width: 30%;
+      width: 33%;
       float: left;
       .reason {
-        margin:2em 0 0 3%;
+        margin-top: 4em;
+        padding: 0 2em;
       }
     }
 }
