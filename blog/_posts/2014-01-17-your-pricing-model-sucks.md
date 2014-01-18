@@ -16,7 +16,7 @@ author:
   name: Jesse Wolgamott
   twitter: jwo
   gplus: 116897169659742961608
-  bio: President
+  bio: Founder
   image: jwo.jpg
 ---
 
