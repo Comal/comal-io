@@ -1,15 +1,14 @@
 ---
 layout: base
 ---
-<div class="blog-cover" style="background: #26282d" xstyle="background-image:url(/images/{{ site.inc.cover_image }});">
-    
+<div class="blog-cover"  style="background-image:url(/images/{{ site.inc.cover_image }});">
+
 <section>
   <div class="container">
-    <h1>From Idea to MVP</h1>
-    <h2>What if you could hire a CTO, instead of just another developer?</h2>
-    <h3 class="lead">Turning Entrepreneurs into Badass Bootstrappers, one MVP at
-    a time.</h3>
-    <p><a id="goConvertkit" href="/#convertkit" class="btn btn-outline">Learn More</a></p>
+    <header class="page-hero-header">
+      <h2>We craft excellent cross platform mobile apps using ember</h2>
+      <p><a id="goConvertkit" href="#learn-more" class="btn btn-outline">Learn More</a></p>
+    </header>
   </div>
 </section>
 </div>
@@ -17,113 +16,28 @@ layout: base
 
 
 
-<section class="box">
+<section class="box" id="learn-more">
   <div class="content pdf">
-    <h3>The Idea Haunts You...</h3>
-    <p>People would tell all their friends about it, they would love it so much, if
-    it were real, you’re sure of it. The idea haunts you, butting in to your
-    thoughts and daydreams, leaving room for little else. The excitement
-    flickers in a corner of your mind, begging to be let out. Only, you have a
-    career to worry about, and you don’t have the technical chops to create your
-    MVP anyway.</p>
 
-    <h3> Your Product: Viable and Valuable</h3>
-    <p>What if you had a plethora of feedback from real customers that used and
-    loved your product? You could invest more money into the product, disrupting
-    competitors and taking market share, point by point. Eventually, you’ll
-    pocket money away for more products, as you build an empire of applications
-    — your salary becoming optional.</p>
+    <p>
+      We craft excellent mobile experiences for multiple mobile
+      platforms using Ember for organizations matching the following
+      criteria:
+    </p>
 
-    <h3>From Idea to MVP</h3>
-    <p>I’m Jesse Wolgamott, and I create products. I build your idea into a Minimum
-    Viable Product — the essence of your idea distilled into a usable and
-    testable experiment. You’ll use this initial version of the idea to beta
-    test with real users, accepting real money for the product, and have the
-    knowledge to decide if your product is ready to go to the next level. More
-    importantly, you reduce risk if your research is wrong: early feedback can
-    prevent a disaster.</p>
+    <ul>
+      <li>Are agile enough to still know each other.</li>
+      <li>Make a positive social impact.</li>
+      <li>Value collaboration.</li>
+      <li>Are invested in maximizing returns on investment.</li>
+    </p>
 
-    <div class="avatar-testimonial">
-      <div class="avatar">
-        <img src="/images/jesse-wolgamott.jpg">
-      </div>
-      "I have one goal: To take your product from an idea to a minimum viable
-      product."
-      <div class="author">— Jesse Wolgamott</div>
-    </div>
+
 
 
   <br clear="all"/>
 </section>
 
-<section class="box idea">
-  <h2>From Idea to MVP: How To Guide</h2>
-  <p class="lead">You're embarking on a journey, and need technical advice and
-  talent to avoid wasting time and money.</p>
-
-  <div class="column">
-    <h3>
-      <i class="fa fa-lightbulb-o fa-3x idea"></i><br/>Inspiration and
-      Research</h3>
-    <div class="reason">
-      <h4>Audience Research</h4>
-      <p>Based on your ideal customer, research into their gathering places
-      online and their current pain points.</p>
-    </div>
-    <div class="reason">
-      <h4>Feasability Analysis</h4>
-      <p>When you're ready to scale up and employ developers, get advice or interviewing help.</p>
-    </div>
-    <div class="reason">
-      <h4>Competitor Information</h4>
-      <p>Most ideas have competitors, you need to know how to differentiate.</p>
-    </div>
-
-  </div>
-
-
-  <div class="column">
-    <h3><i class="fa fa-pencil fa-3x wireframe"></i><br/>Working Wireframe</h3>
-    <div class="reason">
-      <h4>First Cuts</h4>
-      <p>With a better idea of what makes sense, and what doesn't, we cut
-      approximately 25% of the app to focus on the awesome.</p>
-    </div>
-    <div class="reason">
-      <h4>Wireframing</h4>
-      <p>Creating the first visual representation of the idea</p>
-    </div>
-    <div class="reason">
-      <h4>Behaviorial Trials</h4>
-      <p>Your wireframes get behavior added; even when faked out, can be
-      surprisingly awesome in showing your intent for the app.</p>
-    </div>
-  </div>
-
-  <div class="column">
-    <h3><i class="fa fa-magic fa-3x build"></i><br/>Product Build Out</h3>
-    <div class="reason">
-      <h4>Multi-Platform and Multi-Device</h4>
-      <p>Be selective about which platforms you embrace, and which you watch. My solutions look at your potential clients to select a platform strategy.</p>
-    </div>
-    <div class="reason">
-      <h4>Product Build Out</h4>
-      <p>After cutting down to the essentials, we use the Wireframes to build a
-      real product.</p>
-    </div>
-    <div class="reason">
-      <h4>Launching</h4>
-      <p>While the hard work is just beginning, as it launches you can start
-      gathering feedback.</p>
-    </div>
-  </div>
-  <br clear="all">
-
-  <p class="pricing-model">
-  <h3>Agencies hate my disruptive pricing model for Bootstrappers.<br/></br><a
-      href="/blog/your-pricing-model-sucks.html" class="btn btn-outline" >My Pricing Model Works</a/></h3>
-    </p>
-  </section>
 
 <section class="box">
   <div class="content">
@@ -169,11 +83,11 @@ layout: base
 
 <section class="box convert">
 <div class="container">
-          
+
   <section>
   <a id="convertkit"></a>
   <div class="row">
-    {% include _convert.html %}
+    {% include _wufoo.html %}
 
   </div>
 </div>

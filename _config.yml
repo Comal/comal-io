@@ -1,44 +1,44 @@
 inc:
   # Blog Information
-  title:        "Comal Productions, by Jesse Wolgamott"
+  title:        "Comal Productions"
   subtitle:     "What if you could hire a CTO, instead of another devloper?"
-  cover_image:  blog-cover.jpg
-  logo:         comal-star.png
-  
+  cover_image:  IMG_2968.JPG
+  logo:         comal-productions.png
+
   # Company information
   company:      Comal Productions Inc.
   url:          http://comal.io
   twitter:      '@jwo'
   gplus:        '116897169659742961608'
-  
+
   # Product Information
-  product_link: 
-  tagline:      "From Idea to MVP"
-  
+  product_link:
+  tagline:      "Ember Mobile Apps"
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
+
   # Sharing settings
   sharing:
     twitter:    true
     facebook:   true
     gplus:      true
     hn:         true
-    
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
-    google: 
+    google:
       # eg. 'UA-123-12'
       id:       false
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Droid+Sans:400,700'
-  
+  google_font: 'Arvo:400,700'
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://comal.io
@@ -54,7 +54,7 @@ timezone:    nil
 future:      false
 show_drafts: nil
 limit_posts: 0
-pygments:    true
+highlighter:    pygments
 
 relative_permalinks: true
 
@@ -62,7 +62,7 @@ permalink:     none
 paginate_path: 'page:num'
 paginate: 10
 
-markdown:      maruku
+markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 
@@ -124,4 +124,3 @@ assets:
   cache: false
   gzip: [ text/css, application/javascript ]
   debug: false
-

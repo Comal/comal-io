@@ -1,0 +1,14 @@
+header{
+  .page-hero-header {
+     position: absolute;
+     top: 50%;
+     margin-top: -1.3em;
+     padding: 0px 0.5em;
+     z-index: 6;
+     text-align: center;
+     width: 100%;
+     h1, h2 {
+       color: #2C3E50;
+     }
+  }
+}
