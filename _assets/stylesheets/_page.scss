@@ -17,7 +17,7 @@ section img {
     border-color:transparent;
   }
   h2{
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
   }
   p, h3{
@@ -37,7 +37,7 @@ h4 {
 
 
 @media(min-width:764px) {
-    
+
     .box > .reason {
         width: 33%;
         float:left;
@@ -64,8 +64,8 @@ h4 {
     .box > .reason div p {
         font-size:1.2em;
     }
-    
-    
+
+
 }
 
 
@@ -114,7 +114,7 @@ h4 {
     padding: 2px;
     margin-right: 15px;
     border: solid 1px #ccc;
-    border-radius: 50% !important;  
+    border-radius: 50% !important;
 }
 
 .testimonials .testimonial-author {
@@ -129,7 +129,7 @@ h4 {
 .testimonials .carousel-arrow i {
     color: #777;
     font-size: 20px;
-    padding: 2px 8px; 
+    padding: 2px 8px;
     background: #fafafa;
 }
 
@@ -163,17 +163,17 @@ h4 {
 
 .testimonials.testimonials-v1 .item p:after,
 .testimonials.testimonials-v1 .item p:before {
-    width: 0; 
+    width: 0;
     height: 0;
     left: 80px;
-    content: " "; 
+    content: " ";
     bottom: -20px;
-    display: block; 
+    display: block;
     position: absolute;
 }
 
 .testimonials.testimonials-v1 .item p:after {
-    border-top: 22px solid #fafafa; 
+    border-top: 22px solid #fafafa;
     border-left: 0 solid transparent;
     border-right: 22px solid transparent;
     border-left-style: inset; /*FF fixes*/
@@ -192,22 +192,22 @@ h4 {
 }
 
 .testimonials.testimonials-v2 .carousel-arrow {
-    top: -55px; 
+    top: -55px;
 }
 
 .testimonials.testimonials-v2 .item p:after,
 .testimonials.testimonials-v2 .item p:before {
-    width: 0; 
+    width: 0;
     height: 0;
     left: 8%;
-    content: " "; 
+    content: " ";
     bottom: 45px;
-    display: block; 
+    display: block;
     position: absolute;
 }
 
 .testimonials.testimonials-v2 .item p:after {
-    border-top: 20px solid #fafafa; 
+    border-top: 20px solid #fafafa;
     border-left: 25px solid transparent;
     border-right: 0px solid transparent;
     border-left-style: inset; /*FF fixes*/
@@ -257,7 +257,7 @@ h4 {
   .fa.build {
     color: #85144B;
   }
-        
+
     .column {
       width: 33%;
       float: left;
