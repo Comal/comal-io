@@ -1,7 +1,7 @@
 inc:
   # Blog Information
   title:        "Comal Productions"
-  subtitle:     "EmberJS Mobile App Development and Consulting"
+  subtitle:     "We save apps that have gone rouge"
   cover_image:  IMG_2968.JPG
   logo:         comal-productions.png
 
@@ -13,7 +13,7 @@ inc:
 
   # Product Information
   product_link:
-  tagline:      "Ember Mobile Apps"
+  tagline:      "We Save Apps"
 
   # Comments
   disqus:
